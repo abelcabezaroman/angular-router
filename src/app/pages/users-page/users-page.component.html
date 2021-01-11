@@ -1,6 +1,6 @@
-<h1>Users</h1>
+<app-heading>Users</app-heading>
 <ul>
     <li *ngFor="let user of userList">
         <a [routerLink]="'/users/' + user.id">{{user.name}}</a>
     </li>
-</ul>
+</ul>   
